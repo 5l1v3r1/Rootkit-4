@@ -134,7 +134,7 @@ root_init(void)
        printk(KERN_ALERT "cannot create device\n");
        return PTR_ERR(RangerDangerDevice);
      }
-    printk(KERN_ALERT "successfully installed"
+    printk(KERN_ALERT "successfully installed");
     return 0;
     
 }
